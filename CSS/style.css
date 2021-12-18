@@ -10,7 +10,7 @@ body{
 .sky{
     width: 1000vw;
     height: 100vh;
-    background: url(/assets/background.jpg) repeat-x;
+    background: url(./assets/background.jpg) repeat-x;
     position: absolute;
     animation: carMoving 30s linear infinite;
 }
@@ -18,7 +18,7 @@ body{
 .trees{
     width: 100vw;
     height: 81vh;
-    background: url(/assets/trees.png) no-repeat;
+    background: url(./assets/trees.png) no-repeat;
     position: absolute;
     bottom: 11vw;
     background-size: contain;
@@ -27,7 +27,7 @@ body{
 .track{
     width: 600vw;
     height: 30vh;
-    background: url(/assets/track.png) repeat-x;
+    background: url(./assets/track.png) repeat-x;
     position: absolute;
     bottom: 0;
     background-size: contain;
@@ -37,7 +37,7 @@ body{
 .car{
     width: 220px;
     height: 63px;
-    background: url(/assets/car_body.png) no-repeat;
+    background: url(./assets/car_body.png) no-repeat;
     background-size: contain;
     position: relative;
     top: 290px;
@@ -48,7 +48,7 @@ body{
 .leftWheel{
     width: 42px;
     height: 44px;
-    background: url(/assets/car_wheel_left.png) no-repeat;
+    background: url(./assets/car_wheel_left.png) no-repeat;
     background-size: contain;
     position: absolute;
     top: 22px;
@@ -58,7 +58,7 @@ body{
 .rightWheel{
     width: 44px;
     height: 44px;
-    background: url(/assets/car_wheel_right.png) no-repeat;
+    background: url(./assets/car_wheel_right.png) no-repeat;
     background-size: contain;
     position: absolute;
     top: 23px;
